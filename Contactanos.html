@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Mi sosiego Eventos</title>
+<link rel="stylesheet" href="CSS/Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@500&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <section id="SeccionLogo">
+            <div id="Logo">
+        <img src="../Pagina/IMAGENES/logo.png" id="LogoMiSociego">
+    </div>
+    </section>
+    <section>
+        <div id = "MenuPrincipal">
+        <nav>
+            <ul id="ListaNavegacion"><b>
+                <li class="ElementoMenuPrincipal"><a class="NavLink" href="index.html">NUESTRA HISTORIA</a></li>
+                <li class="ElementoMenuPrincipal"><a class="NavLink" href="Servicios.html">SERVICIOS</a></li>
+                <li class="ElementoMenuPrincipal"><a class="NavLink" href="Promociones.html">PROMOCIONES</a></li>
+                <li class="ElementoMenuPrincipal"><a class="NavLink" href="Fotos.html">FOTOS</a></li>
+                <li class="ElementoMenuPrincipal"><a class="NavLink" href="Reservas.html">RESERVAS</a></li>
+                <li class="ElementoMenuPrincipal"><a class="NavLink" href="Contactanos.html">COMENTARIOS</a></li>
+                </b>
+            </ul>
+        </nav>
+    </div>
+    </section>
+    </header>
+
+    <main>
+        <div>
+
+            <h1 class="titulos">Contáctanos</h1>
+            <h2 class="titulos">Dejanos tu mensaje, te contactaremos a la brevedad.</h2>
+            <form  id= "FormContacto">
+                <div class="BoxContacto">
+                <label class="LabelsContacto">Tu Nombre:</label>
+                <input type="text" name="Nombre" class="InputTexto">
+                </div>
+                <div class="BoxContacto">
+                <label class="LabelsContacto">Email:</label>
+                <input type="email" name="Email" class="InputTexto">
+                </div>  
+                <div class="BoxContacto">      
+                <label class="LabelsContacto">Teléfono:</label>
+                <input type="text" name="Telefono" class="InputTexto"> 
+                </div>  
+                <div class="BoxContacto">   
+                <input type="radio" name="preferencia de contacto" value="mail" class="BotonRadio"/>
+                <label class="TextoRadio">Prefiero que me contacten por e-mail</label>
+                </div>
+                <div class="BoxContacto">   
+                <input type="radio" name="preferencia de contacto" value="teléfono" class="BotonRadio"/>
+                <label class="TextoRadio">Prefiero que me contacten por teléfono</label>
+                </div>
+                <div id="AreaTextoContacto">
+                <textarea name="Textarea" rows="10" cols="50" id="CajaTextoContacto">Dejanos tu mensaje:</textarea>
+                </div>
+                <input type="reset" name="reset" value="Borrar" class="BotonAccionContacto">
+                <input type="submit" name="submit" class="BotonAccionContacto">  
+            </form>
+            </div>
+        <section>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d2691e" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,245.3C384,245,480,203,576,192C672,181,768,203,864,202.7C960,203,1056,181,1152,160C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+
+    </main>
+</body>
+<footer>
+
+</footer>
+</html>
